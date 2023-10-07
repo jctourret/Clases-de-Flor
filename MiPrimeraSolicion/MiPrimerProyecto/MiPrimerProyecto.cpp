@@ -17,6 +17,8 @@ int main()
 
     vida -= daño;
 
+    int n8239 = 23;
+
     std::cout << "Te pego un goblin, perdiste " << daño << " de vida, te quedan: " << vida << std::endl;
     //Si, pasa X entonces hace Y, pero si no pasa X hace Z
     //if(X->Condicion)

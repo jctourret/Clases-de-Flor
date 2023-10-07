@@ -1,0 +1,8 @@
+﻿  MiSegundoProyecto.cpp
+C:\Users\Juan Cruz Tourret\Downloads\Clases-de-Flor-main\Clases-de-Flor-main\MiPrimeraSolicion\MiSegundoProyecto\MiSegundoProyecto.cpp(37,13): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\Juan Cruz Tourret\Downloads\Clases-de-Flor-main\Clases-de-Flor-main\MiPrimeraSolicion\MiSegundoProyecto\MiSegundoProyecto.cpp(38,13): warning C4552: '!=': result of expression not used
+C:\Users\Juan Cruz Tourret\Downloads\Clases-de-Flor-main\Clases-de-Flor-main\MiPrimeraSolicion\MiSegundoProyecto\MiSegundoProyecto.cpp(39,13): warning C4552: '<=': result of expression not used
+C:\Users\Juan Cruz Tourret\Downloads\Clases-de-Flor-main\Clases-de-Flor-main\MiPrimeraSolicion\MiSegundoProyecto\MiSegundoProyecto.cpp(40,13): warning C4552: '<': result of expression not used
+C:\Users\Juan Cruz Tourret\Downloads\Clases-de-Flor-main\Clases-de-Flor-main\MiPrimeraSolicion\MiSegundoProyecto\MiSegundoProyecto.cpp(41,13): warning C4552: '>=': result of expression not used
+C:\Users\Juan Cruz Tourret\Downloads\Clases-de-Flor-main\Clases-de-Flor-main\MiPrimeraSolicion\MiSegundoProyecto\MiSegundoProyecto.cpp(42,13): warning C4552: '>': result of expression not used
+  MiSegundoProyecto.vcxproj -> C:\Users\Juan Cruz Tourret\Downloads\Clases-de-Flor-main\Clases-de-Flor-main\MiPrimeraSolicion\x64\Debug\MiSegundoProyecto.exe
