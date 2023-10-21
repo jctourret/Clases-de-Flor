@@ -11,7 +11,9 @@ int main()
 { //TipoDeCaja  NombreDeCaja
     int            vida; // Cree la caja 'vida'.
     vida = 15; // lleno la caja.
+
     int daño = 15;
+
     std::cout << "Tu vida es: " << vida << std::endl;
     std::cout << "Tu mana es: 10" << std::endl;
 

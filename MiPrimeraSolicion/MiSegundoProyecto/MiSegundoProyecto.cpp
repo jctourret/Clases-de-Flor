@@ -18,8 +18,6 @@ int main() //main -> Punto de entrada. Funciones: Cachos de codigo.
     //Tipos de datos  +  identificador.
           int                numeros;    // Declaracion: Creando la caja.
 
-
-
     numeros = 8; // Llenando la caja
     
     numeros = numeros + 8; // +: operador aritmetico.
