@@ -1,74 +1,33 @@
-#include <iostream>
-#include <string>
-#include <Windows.h>
+﻿#include <iostream>
 
 using namespace std;
 
-enum Coches {
-    chevrolet,
-    ford,
-    ferrari
-};
-
 int main()
-{
-    const int alumnosEnElAula = 30; //const: es una variable que no puede variar.
-    const int columnasDeSillas = 10; //const: es una variable que no puede variar.
-    const int filasDeSillas = 3; //const: es una variable que no puede variar.
-    const int ancho = 30; //const: es una variable que no puede variar.
-    const int alto = 30; //const: es una variable que no puede variar.
+{   //Es una cadena de variables una al lado de la otra.
+	//TipoDeDato nombreDeVariable[tamaño] = {variable, variable, variable, etc}  
+	char map[100] = { 'c','a','s','i','t','a' };
 
-    int autos[3];
-    autos[(int)chevrolet] = 10;
-    autos[(int)ford] = 100;
-    autos[(int)ferrari] = 1;
+	//imprimi mi array;
+	cout << map << endl;
 
-    //Declaracion de un Array y Asignacion
-    //TipoDeDato IdentificadorDeDato  [Tama�oDelArray];
-    string alumnos[alumnosEnElAula]=
-    {"Jaimito","Juan", "Jaimito", "Jaimito", "Jaimito", "Jaimito", "Jaimito", "Jaimito", "Jaimito","Jaimito",
-    "Jaimito", "Jaimito", "Chester", "Jaimito", "Jaimito", "Jaimito", "Jaimito", "Jaimito", "Jaimito", "Jaimito", 
-    "Jaimito", "Jaimito", "Jaimito", "Jaimito", "Jaimito", "Jaimito", "Jaimito", "Pepe", "Maria", "Pedro"};
+	//imprimi el primer espacio de mi array.
+	cout << map[0] << endl;
 
-    //Los arreglos se recorren usando un for. El i acumulador y el tama�o del limite es el tama�o del array.
-    for (int i = 0; i < alumnosEnElAula; i++)
-    {
-        cout << alumnos[i] << " ";
-    }
-    cout << endl;
-    cout << endl;
-    //Declaracion de un Array bidimencional y Asignacion
-    //TipoDeDato IdentificadorDeDato  [AnchoDelArray][AltoDelArray];
-    string alumnos2D[filasDeSillas][columnasDeSillas] =
-    { {"Jaimito", "Juan", "Jaimito", "Jaimito", "Jaimito", "Jaimito", "Jaimito", "Jaimito", "Jaimito", "Jaimito"},
-      { "Jaimito", "Jaimito", "Chester", "Jaimito", "Jaimito", "Jaimito", "Jaimito", "Jaimito", "Jaimito", "Jaimito"},
-      { "Jaimito", "Jaimito", "Jaimito", "Jaimito", "Jaimito", "Jaimito", "Jaimito", "Pepe", "Maria", "Pedro"} };
+	for (int i = 0; i < 100; i++)
+	{
+		map[i] = ' ';
+	}
+	getchar();
 
-    //Los arreglos bidimensionales se recorren usando fors
-    for (int i = 0; i < filasDeSillas; i++)
-    {
-        for (int j = 0; j < columnasDeSillas; j++) {
-            cout << alumnos2D[i][j] << " ";
-        }
-        cout << endl;
-    }
-    cout << endl;
-    cout << endl;
+	for (int i = 0; i < 100; i++)
+	{
+		wcout << map[i];
+	}
+	cout << endl;
 
-    int map[ancho][alto];
-
-    for (int i = 0; i < ancho; i++)
-    {
-        for (int j = 0; j < alto; j++) {
-            map[ancho][alto] = 0;
-        }
-    }
-    for (int i = 0; i < ancho; i++)
-    {
-        for (int j = 0; j < alto; j++) {
-            cout << map[ancho][alto] << " ";
-            Sleep(100);
-        }
-        cout << endl;
-    }
+	//╔════════╗
+	//╠═══╦════╣
+	//║   ║    ║
+	//╠═══╬════╣
+	//╚═══╩════╝
 }
